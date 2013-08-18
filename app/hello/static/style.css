@@ -1,0 +1,103 @@
+body{
+		font-family:Verdana;
+}
+
+/* this is used to give the headings in the animal profile page to give it the colour */
+    h3 {
+        color: #0711C7;
+    }
+/*this is the settings for the notepad thats made in the middle of the page */
+#notepad  {
+            margin-right:auto;
+            margin-left:auto;
+            padding-top:30px;
+            padding-bottom:25px;
+            padding-right:50px;
+            padding-left:100px;
+            border-radius:10px;
+            background-color:white;
+            border: 1px solid black;
+            background-image:url('/static/eggshell.jpg');
+            width:855;
+            height:700;
+         }
+/*this styles the whole of the content inside the notepad */
+#content {
+            height:660px;
+            margin-top:10px;
+            margin-bottom:10px;
+            padding:10px;
+            overflow:hidden;
+        }
+
+ #funstuff, #listen {
+ 
+                    width:50%;
+                    float: right;
+                    text-align:center;
+                    overflow:auto;
+                    height:auto;
+           }
+/*this is used to align the play animal noise buttons */
+#play {
+            text-align: left;
+            width:30%
+            float:right;
+            margin-left:50px;   
+    } 
+/*this is for the settings for the text in the animal profile page */
+#text {
+             width:45%;
+             float:left;
+             height:660px;
+             overflow:auto; 
+     }
+
+#background {
+            background-color:gray ;
+    }
+
+/*
+#2button {
+	padding-left:50px;
+
+
+}
+*/
+	
+button{
+	width:150px;
+
+	}
+	
+/*this is used to give the list of animals in the home page bullet points*/
+ul.a {list-style-type:square;}
+/*this is the setting for the header in the main page*/
+#heading  {
+            color:#040045;
+            margin-left:auto;
+            margin-right:auto;
+            font-size:36px;
+     }
+
+#funstuff img {
+			height:295px;
+        }
+
+#map { 
+         width:100%;
+         margin-top:10px;
+      }
+/*this is used to style the background of the notepad*/
+#funstuff .status {
+			height:60px;
+            width:240px;
+            margin-top:10px;
+            }
+/*this is used manage teh scroll settings */
+#scroll  {
+            width:50%;
+            height:500px;
+            overflow:auto;
+            float:left;
+        }
